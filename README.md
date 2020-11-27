@@ -1,8 +1,6 @@
 # Powershell
 
-commande
-
-Sommaire
+**Sommaire**
 
 Introduction au  Powershell
 
