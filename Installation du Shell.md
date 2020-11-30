@@ -1,6 +1,7 @@
 ## Installation du Shell
 
 code pour installer Shell sur Linux
+
 ---
 Download the Microsoft repository GPG keys
 wget https://packages.microsoft.com/config/debian/10/packages-microsoft-prod.deb
@@ -16,4 +17,5 @@ sudo apt-get install -y powershell
 
 Start PowerShell
 pwsh
+
 ---
