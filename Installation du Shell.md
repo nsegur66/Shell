@@ -1,6 +1,6 @@
 ## Installation du Shell
 
-code pour installer Shell sur Linux
+commande pour installer Shell sur Linux
 
 ---
 *Download the Microsoft repository GPG keys*  
