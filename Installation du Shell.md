@@ -1,6 +1,6 @@
 ## Installation du Shell
-"
-Voici quelques commandes pour installer une versions de "Debian 10" sur linux.
+
+Voici quelques commandes pour installer une versions Shell, ici "Debian 10" sur linux.
 
 
 ---
