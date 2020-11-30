@@ -1,5 +1,11 @@
 ## Shell
 
+Sous Linux, l'interpréteur de commandes et le langage de programmation est nommé Shell. C'est auussi une interface en mode texte. Il faut l'installer pour pouvoir l'utiliser
+
+Sous windows, il se nomme le Powershell et il est déjà pré-installer.
+
+Premièrement, nous verront son Fonctionnement et quelques commandes de base. Puis, nous étudierons des scripts (automatisation, gestion d'utilisateur , agenda ...) .
+
 ----------------------------
 ## Sommaire
 
