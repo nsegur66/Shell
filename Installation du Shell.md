@@ -1,6 +1,7 @@
 ## Installation du Shell
+"
+Voici quelques commandes pour installer une versions de "Debian 10" sur linux.
 
-commande pour installer Shell sur Linux
 
 ---
 *Download the Microsoft repository GPG keys*  
@@ -18,4 +19,6 @@ sudo apt-get install -y powershell
 *Start PowerShell*  
 pwsh
 
----
+## Probleme lié a l'installation 
+
+
