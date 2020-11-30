@@ -19,6 +19,7 @@ sudo apt-get install -y powershell
 *Start PowerShell*  
 pwsh
 
-## Probleme lié a l'installation 
+---
 
-
+On peut configurer d'autres version de Debian.  
+Disponible sur le site microsoft : https://docs.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7.1
