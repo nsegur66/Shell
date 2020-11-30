@@ -11,7 +11,7 @@
 
 * [installation du Shell](https://github.com/nsegur66/Powershell/blob/main/Installation%20du%20Shell.md)
 
-* [commande](https://github.com/nsegur66/Powershell/blob/main/Commande)
+* [commande](https://github.com/nsegur66/Powershell/blob/main/Commande.md)
 
 * [Script]()
 
