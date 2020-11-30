@@ -1,3 +1,3 @@
 ## Fonctionnement du Shell
 
-## COmmande de base 
+## Commande de base 
