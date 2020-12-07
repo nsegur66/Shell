@@ -19,6 +19,10 @@ Premièrement, nous verront son Fonctionnement et quelques commandes de base. Pu
 
 * [commande](https://github.com/nsegur66/Powershell/blob/main/Commande.md)
 
+* [variables]
+
+* [boucles]
+
 * [Script]()
 
 ----------------------------
