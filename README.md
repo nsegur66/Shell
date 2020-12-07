@@ -15,15 +15,24 @@ Premièrement, nous verront son Fonctionnement et quelques commandes de base. Pu
     
     * [Qu'est ce que le Shell ?](https://github.com/nsegur66/Powershell/blob/main/Introduction%20au%20Shell.md#quest-ce-que-le-shell-)
 
-* [installation du Shell](https://github.com/nsegur66/Powershell/blob/main/Installation%20du%20Shell.md)
+    
+* [Shell]
 
-* [commande](https://github.com/nsegur66/Powershell/blob/main/Commande.md)
+    * [installation du Shell](https://github.com/nsegur66/Powershell/blob/main/Installation%20du%20Shell.md)
 
-* [variables]
+    * [commande](https://github.com/nsegur66/Powershell/blob/main/Commande.md)
 
-* [boucles]
+    * [variables]()
+
+    * [boucles]()
+
+    * [conditions]()
 
 * [Script]()
+  
+    * [Essaie]()
+  
+    * [TP]() 
 
 ----------------------------
 
