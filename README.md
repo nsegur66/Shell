@@ -9,11 +9,11 @@ Premièrement, nous verront son Fonctionnement et quelques commandes de base. Pu
 ----------------------------
 ## Sommaire
 
-* [Introduction au  Shell](https://github.com/nsegur66/Powershell/blob/main/Introduction%20au%20Shell.md)
+* [Introduction](https://github.com/nsegur66/Powershell/blob/main/Introduction%20au%20Shell.md)
     
     * [Histoire du Shell](https://github.com/nsegur66/Powershell/blob/main/Introduction%20au%20Shell.md#histoire-du-shell)
     
-    * [Qu'est ce que le Shell ?](https://github.com/nsegur66/Powershell/blob/main/Introduction%20au%20Shell.md#quest-ce-que-le-shell-)
+    * [Au final, qu'est ce que le Shell ?](https://github.com/nsegur66/Powershell/blob/main/Introduction%20au%20Shell.md#quest-ce-que-le-shell-)
 
     
 * [Shell]
