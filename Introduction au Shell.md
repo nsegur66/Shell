@@ -23,7 +23,9 @@ Un shell est une couche logicielle qui fournit l'interface utilisateur d'un syst
 correspond à la couche la plus externe de ce dernier.
 
 Le Shell de l'OS possède deux environnements :
+
 • l'environnement console (GLI), l'interface en ligne de commande.
+
 • l'environnement graphique (GUI).L'interface graphiques est plus simple et plus intuitif d'utilisation.
 
 L'interfaces en ligne de commande permet de communiquer avec la machine via du texte. Mais pour que les commandes soient reconnues, on a besoin d'un interpréteur de commande. 
@@ -51,25 +53,22 @@ Il se présente sous la forme d'une interface en ligne de commande accessible de
 
 Pour résumé, un shell Unix va permettre d'interpréter les commandes données sous forme de texte dans un terminal Unix. C'est un peu le "langage" qui permet à l'utilisateur et à la machine de se comprendre.
 
-ils existent plusieurs environnements console, plusieurs types de Shell Unix .
+ils existent plusieurs environnements console, plusieurs types de Shell Unix.
+
 Voici les principaux shells Unix utilisé :
-• sh : Bourne Shell. L'ancêtre de tous les shells.
-• bash : Bourne Again Shell. Une amélioration du Bourne
+
+• `sh` : Bourne Shell. L'ancêtre de tous les shells.
+• `bash` : Bourne Again Shell. Une amélioration du Bourne
 Shell, disponible par défaut sous GNU/Linux et Mac OS X.
-• ksh : Korn Shell. Un shell puissant assez présent sur les
+• `ksh` : Korn Shell. Un shell puissant assez présent sur les
 Unix propriétaires, mais aussi disponible en version libre,
 compatible avec bash.
-• csh : C Shell. Un shell utilisant une syntaxe proche du
+• `csh` : C Shell. Un shell utilisant une syntaxe proche du
 langage C.
-• tcsh : Tenex C Shell. Amélioration du C Shell.
-• zsh : Z Shell. Shell assez récent reprenant les meilleures
+• `tcsh` : Tenex C Shell. Amélioration du C Shell.
+• `zsh` : Z Shell. Shell assez récent reprenant les meilleures
 idées de bash, ksh et tcsh.
 
 Le bash est le shell par défaut. Aujourd'hui le bash est de loin le plus utilisé car il est installé sur la plupart des distributions Unix.
 
-Beaucoup de solutions sont données en ligne de commande, non pas qu'Unix n'ait pas d'interface
-graphique, mais pour certaines tâches, l'utilisation de la ligne de commande s'avère bien plus
-pratique et plus puissante que la souris. 
-
-
-Le Shell vous donne accès à toute une gamme d'outils très performants qui permettent d'effectuer des tâches impossibles jusque là mais aussi de les automatiser, et cela d'une manière assez simple. De nombreuses interfaces graphiques sont certes disponibles, mais le shell reste très léger, rapide, accessible, efficace…
+Pour finir le Shell nous donne accès à toute une gamme d'outils très performants qui permettent d'effectuer des tâches complexes mais aussi de les automatiser, et cela d'une manière assez simple. De nombreuses interfaces graphiques sont certes disponibles, mais le shell reste très léger, rapide, accessible et efficace.
