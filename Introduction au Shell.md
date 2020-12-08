@@ -46,26 +46,27 @@ Sous Mac, on se sert directement du terminale
 
 ------------------------
 
-c'est simplement le terminal
-On va s'intéresser aux shells Unix. Tout d'abord qu'est ce qu'un shell Unix ?
-
-Il se présente sous la forme d'une interface en ligne de commande accessible depuis la console ou un terminal. L'utilisateur lance des commandes sous forme d'une entrée texte exécutée ensuite par le shell. Wikipédia
-
-Pour résumé, un shell Unix va permettre d'interpréter les commandes données sous forme de texte dans un terminal Unix. C'est un peu le "langage" qui permet à l'utilisateur et à la machine de se comprendre.
+Maintenant, nous allons aborder les Shell Unix.Il va permettre d'interpréter les commandes données sous forme de texte dans un terminal Unix. 
 
 ils existent plusieurs environnements console, plusieurs types de Shell Unix.
 
 Voici les principaux shells Unix utilisé :
 
 • `sh` : Bourne Shell. L'ancêtre de tous les shells.
+
+
 • `bash` : Bourne Again Shell. Une amélioration du Bourne
 Shell, disponible par défaut sous GNU/Linux et Mac OS X.
+
 • `ksh` : Korn Shell. Un shell puissant assez présent sur les
 Unix propriétaires, mais aussi disponible en version libre,
 compatible avec bash.
+
 • `csh` : C Shell. Un shell utilisant une syntaxe proche du
 langage C.
+
 • `tcsh` : Tenex C Shell. Amélioration du C Shell.
+
 • `zsh` : Z Shell. Shell assez récent reprenant les meilleures
 idées de bash, ksh et tcsh.
 
