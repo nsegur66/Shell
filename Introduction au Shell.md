@@ -19,17 +19,40 @@
 
 > :bulb: Le Shell est une interface en ligne de commande.
 
-Un shell1
- est une couche logicielle qui fournit l'interface utilisateur d'un système d'exploitation. Il
-correspond à la couche la plus externe de ce dernier. L'interface système est utilisé comme diminutif
-de l'interface utilisateur du système d'exploitation.
-Il existe deux environnements très différents sous Unix :
-• l'environnement console
-• l'environnement graphique
-Et il existe plusieurs environnements console : les shells.
-La console a toujours un fond noir et un texte blanc. En revanche, les fonctionnalités offertes par
-l'invite de commandes peuvent varier en fonction du shell que l'on utilise.
-Voici les noms de quelques-uns des principaux shells :
+Un shell est une couche logicielle qui fournit l'interface utilisateur d'un système d'exploitation. Il
+correspond à la couche la plus externe de ce dernier.
+
+Le Shell de l'OS possède deux environnements :
+• l'environnement console (GLI), l'interface en ligne de commande.
+• l'environnement graphique (GUI).L'interface graphiques est plus simple et plus intuitif d'utilisation.
+
+L'interfaces en ligne de commande permet de communiquer avec la machine via du texte. Mais pour que les commandes soient reconnues, on a besoin d'un interpréteur de commande. 
+Ils existent plusieurs interpréteur de commande selon l'OS qu'ont utilisent.
+
+------------------------
+## Windows 
+ 
+Avec windows, le logiciel d'interprétation des commandes est le cmd.exe.Cependant, aujourd'hui il existe un deuxième interprétateur de commande nommé le powershell.exe
+
+## Linux
+
+Linux, se sert de plusieurs types de shells Unix comme le sh / le bash / etc...
+
+## Mac
+
+Sous Mac, on se sert directement du terminale
+
+------------------------
+
+c'est simplement le terminal
+On va s'intéresser aux shells Unix. Tout d'abord qu'est ce qu'un shell Unix ?
+
+Il se présente sous la forme d'une interface en ligne de commande accessible depuis la console ou un terminal. L'utilisateur lance des commandes sous forme d'une entrée texte exécutée ensuite par le shell. Wikipédia
+
+Pour résumé, un shell Unix va permettre d'interpréter les commandes données sous forme de texte dans un terminal Unix. C'est un peu le "langage" qui permet à l'utilisateur et à la machine de se comprendre.
+
+ils existent plusieurs environnements console, plusieurs types de Shell Unix .
+Voici les principaux shells Unix utilisé :
 • sh : Bourne Shell. L'ancêtre de tous les shells.
 • bash : Bourne Again Shell. Une amélioration du Bourne
 Shell, disponible par défaut sous GNU/Linux et Mac OS X.
@@ -41,17 +64,12 @@ langage C.
 • tcsh : Tenex C Shell. Amélioration du C Shell.
 • zsh : Z Shell. Shell assez récent reprenant les meilleures
 idées de bash, ksh et tcsh.
-Le bash est le shell par défaut. Cependant, sh reste toujours plus
-répandu que bash.
+
+Le bash est le shell par défaut. Aujourd'hui le bash est de loin le plus utilisé car il est installé sur la plupart des distributions Unix.
+
 Beaucoup de solutions sont données en ligne de commande, non pas qu'Unix n'ait pas d'interface
 graphique, mais pour certaines tâches, l'utilisation de la ligne de commande s'avère bien plus
 pratique et plus puissante que la souris. 
 
-Le Shell est une interface entre l'utilisateur et le système d'exploitation. L'utilisateur entre des commandes, qui sont ensuite interprétées par le Shell, et celui-ci renvoie un certain résultat.
-
-
-
-Quand on parle du Shell, on fait souvent référence à l'interpréteur de commande, autrefois nommé sh (contraction de shell), et qui a ensuite donné naissance à tout un éventail d'interpréteurs tels que bash, csh, zsh, ksh… qu'il ne faut pas confondre avec un émulateur de terminal comme xterm, eterm, gnome-terminal qui est un outil graphique qui permet d'avoir accès au shell.
-En réalité, les vrais terminaux sont accessibles via la combinaison de touche CTRL + ALT + Fx (où x est un chiffre entre 1 et 6) lorsque vous êtes dans un environnement graphique, le 7 correspondant à cette session. Si vous êtes dans un vrai Terminal, il faut théoriquement utiliser ALT + Fx. À noter également qu'un émulateur permet d'afficher une sorte de TTY (TéléTYpe) dans la session graphique.
 
 Le Shell vous donne accès à toute une gamme d'outils très performants qui permettent d'effectuer des tâches impossibles jusque là mais aussi de les automatiser, et cela d'une manière assez simple. De nombreuses interfaces graphiques sont certes disponibles, mais le shell reste très léger, rapide, accessible, efficace…
