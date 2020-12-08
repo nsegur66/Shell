@@ -22,11 +22,11 @@ Premièrement, nous verront son Fonctionnement et quelques commandes de base. Pu
 
     * [commande](https://github.com/nsegur66/Powershell/blob/main/Commande.md)
 
-    * [variables]()
+    * [variables](https://github.com/nsegur66/Shell/blob/main/variables.md)
 
-    * [boucles]()
+    * [boucles](https://github.com/nsegur66/Shell/blob/main/boucles.md)
 
-    * [conditions]()
+    * [conditions](https://github.com/nsegur66/Shell/blob/main/conditions.md)
 
 * [Script]()
   
