@@ -46,7 +46,7 @@ Sous Mac, on se sert directement du terminale
 
 ------------------------
 
-Maintenant, nous allons aborder les Shell Unix.Il va permettre d'interpréter les commandes données sous forme de texte dans un terminal Unix. 
+Maintenant, nous allons aborder les Shell Unix.  Il va permettre d'interpréter les commandes données sous forme de texte dans un terminal Unix. 
 
 ils existent plusieurs environnements console, plusieurs types de Shell Unix.
 
@@ -70,6 +70,6 @@ langage C.
 • `zsh` : Z Shell. Shell assez récent reprenant les meilleures
 idées de bash, ksh et tcsh.
 
-Le bash est le shell par défaut. Aujourd'hui le bash est de loin le plus utilisé car il est installé sur la plupart des distributions Unix.
+Le bash est le shell par défaut.  Aujourd'hui le bash est de loin le plus utilisé car il est installé sur la plupart des distributions Unix.
 
 Pour finir le Shell nous donne accès à toute une gamme d'outils très performants qui permettent d'effectuer des tâches complexes mais aussi de les automatiser, et cela d'une manière assez simple. De nombreuses interfaces graphiques sont certes disponibles, mais le shell reste très léger, rapide, accessible et efficace.
