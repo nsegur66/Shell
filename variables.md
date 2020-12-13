@@ -46,7 +46,7 @@ $
 ```
 ## Les quotes
 
-Il existe trois types de quotes (aide de openclassrooms) :
+Il existe trois types de quotes :
 
 **les apostrophes** ``' '`` (simples quotes) ;
 
@@ -54,7 +54,7 @@ Il existe trois types de quotes (aide de openclassrooms) :
 
 **les accents graves** `` ` ` `` (back quotes)
 
-Reprenons notre variables. 
+Reprenons notre variable. 
 
 **Les simples quotes** 
 
@@ -99,6 +99,32 @@ Vous êtes dans le dossier /home/nicolas/bin
 $
 ```
 Les back quotes permettent de mettre une commande a l'intérieur (ici pwd)  et de l'exécuter avec echo.
+
+## La commande **Read**
+
+On peut faire une demande de saisie grâce à la commande **read**
+Read permet de stocké le nom de la variable dans le message saisi
+```bash
+#!/bin/bash
+
+echo "Combiens d\ 'élèves ont eu le BAC ?"
+
+read nombres
+
+echo "$nombres élèves ont eu le BAC"
+```
+Sortie :
+
+```bash
+$ ./bac.sh
+Combiens d'élèves ont eu le BAC ?
+345
+345 élèves ont eu le BAC
+```
+## Les opérations mathématiques
+En bash, les variables sont toutes des chaînes de caractères. En soi, le bash n'est pas vraiment capable de manipuler des nombres ; il n'est donc pas capable d'effectuer des opérations.
+
+Heureusement, il est possible de passer par des commandes (eh oui, encore). Ici, la commande à connaître est let.
 
 
 ## Variable d'environnement 
