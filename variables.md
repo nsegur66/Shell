@@ -44,11 +44,61 @@ $./variable.sh
 Bonjour tout le monde
 $
 ```
+## Les quotes
 
+Il existe trois types de quotes (aide de openclassrooms) :
 
+**les apostrophes** ``' '`` (simples quotes) ;
 
+**les guillemets** ``" "`` (doubles quotes) ;
 
+**les accents graves** `` ` ` `` (back quotes)
 
+Reprenons notre variables. 
+
+**Les simples quotes** 
+
+```bash
+#!/bin/bash
+message='Bonjour tout le monde'
+echo 'Le message est : $message'
+```
+Sortie :
+```bash
+$ ./variable.sh
+Le message est : $message
+$
+```
+la variable n'est pas prise en compte et elle est affiché tel quel.
+
+**Les double quotes**
+
+```bash
+#!/bin/bash
+message="Bonjour tout le monde"
+echo "Le message est : $message"
+```
+Sortie :
+```bash
+$ ./variable.sh
+Le message est : Bonjour tout le monde
+$
+```
+Ici, la variable est prise en compte 
+
+**Les back quotes**
+```bash
+#!/bin/bash
+message=`pwd`
+echo `Vous êtes dans le dossier $message`
+```
+Sortie :
+```bash
+$ ./variable.sh
+Vous êtes dans le dossier /home/nicolas/bin
+$
+```
+Les back quotes permettent de mettre une commande a l'intérieur (ici pwd)  et de l'exécuter avec echo.
 
 
 ## Variable d'environnement 
