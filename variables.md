@@ -139,11 +139,17 @@ Elles sont aussi nommé **variables globales**.
 Les commandes principales sont :
 
 ``env`` permet d'afficher les variables ci-dessous 
+
 ``shell`` indique le shell en cours d'utilisation
+
 ``path`` des répertoires contenant des exécutables.Qu'on souhaite lancé sans indiquer le répertoire
+
 ``editor`` c'est l'éditeur de texte par défaut
+
 ``home`` position dans notre dossier home
+
 ``pwd`` le dossier dans lequel on se trouve 
+
 ``olpwd`` le dossier dans lequel on setrouvait avant
 
 On peut définir notre propre variable d'environnement avec la commande ``export``
