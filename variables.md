@@ -122,17 +122,71 @@ Combiens d'élèves ont eu le BAC ?
 345 élèves ont eu le BAC
 ```
 ## Les opérations mathématiques
-En bash, les variables sont toutes des chaînes de caractères. En soi, le bash n'est pas vraiment capable de manipuler des nombres ; il n'est donc pas capable d'effectuer des opérations.
+En passantpar la commande **Let** nous pouvons effectuer des opérations mathémathiques tels que :
 
-Heureusement, il est possible de passer par des commandes (eh oui, encore). Ici, la commande à connaître est let.
+- les additions (+) , soustractions (-) , multiplications (*)
+- les divisions (/) , modulo (%) et les puissances (**)
+
+exemple :
+```bash
+let "a = 4 ** 2" # $a = 16 
+let "a = 8 / 2" # $a = 4
+```
+
+## Variables d'environnement 
+Elles sont aussi nommé **variables globales**.
+
+Les commandes principales sont :
+
+``env`` permet d'afficher les variables ci-dessous 
+``shell`` indique le shell en cours d'utilisation
+``path`` des répertoires contenant des exécutables.Qu'on souhaite lancé sans indiquer le répertoire
+``editor`` c'est l'éditeur de texte par défaut
+``home`` position dans notre dossier home
+``pwd`` le dossier dans lequel on se trouve 
+``olpwd`` le dossier dans lequel on setrouvait avant
+
+On peut définir notre propre variable d'environnement avec la commande ``export``
 
 
-## Variable d'environnement 
+## Variables de paramètres 
 
+C'est variables sont automatiquement créees.
 
+Exemples :
 
+``$#`` contient le nombre de paramètres
+``$0`` contient le nom du script exécuté
+``$1`` contient le premier paramètre
+``$2``contient le second paramètre
+`` ... ``
+``$n`` contient le énième paramètres
 
+```bash
+#!/bin/bash
+echo "Vous avez lancé $0, il y a $# d\ 'élèves"
+echo "Le paramètre 1 est $3"
+``` 
+Sortie 
 
+```bash
+$ ./variables.sh param1 param2 param3
+Vous avez lancé ./variables.sh, il y a 3 élèves
+Le paramètre 1 est param3
+```
 
-## Variable de paramètres 
+Grâce a la commande ``shift`` on peut décaler les paramètres.
 
+```bash
+#!/bin/bash
+echo "Le paramètre 1 est $2"
+shift
+echo "Le paramètre 1 est maintenant $2"
+```
+Sortie
+```bash
+$ ./variables.sh param1 param2 param3
+Le paramètre 1 est param2
+Le paramètre 1 est maintenant param3
+```
+``shift`` est notamment utilisé dans les boucles.
