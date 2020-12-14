@@ -23,3 +23,30 @@ Elle veut dire "jusqu'a ce que".
 
 
 ## La Boucle ``For``
+
+``For`` correspond a "pour".
+
+```bash
+#!/bin/bash
+for var in 'val1' 'val2' do
+   echo "action a effectué"
+done
+```
+Ici, on utilise un ``for`` pour dire que si **var** est contenu dans **val1** et **val2**, le **do** effectuera un action.
+Et le **done** pour fermer cette boucles.
+
+Exemples :
+
+```bash
+#!/bin/bash
+for élèves in 'seconde 1' 'première 4' 'terminal 9' do
+        echo "En quelle classe est cette élève ? : $élèves"
+done
+```
+Sortie
+
+```bash
+En quelle classe est cette élève ? : seconde 1
+En quelle classe est cette élève ? : terminal 9
+En quelle classe est cette élève ? : première 4
+```
