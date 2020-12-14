@@ -50,3 +50,22 @@ En quelle classe est cette élève ? : seconde 1
 En quelle classe est cette élève ? : terminal 9
 En quelle classe est cette élève ? : première 4
 ```
+Mais, il est possible d'introduire une varaibles dans notre boucles ``for``.
+
+Exemples :
+
+```bash
+#!/bin/bash
+liste_fichiers=`ls`
+for fichier in $liste_fichiers do
+   echo "Fichier trouvé : $fichier"
+done
+```
+Sortie 
+```bash
+Fichier trouvé : boucles.sh
+Fichier trouvé : conditions.sh
+Fichier trouvé : variables.sh
+```
+
+
