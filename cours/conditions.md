@@ -40,34 +40,54 @@ En additionnant ``if`` / ``elif`` /  ``else`` on peut : vérifier différentes a
 
 ## Chaines de caractères 
 
-Conditions	Significations
-[ $str1 == $str2 ]	Vérifie si str1 est égale à str2. (Possible avec un seul =)
-[ $str1 != $str2 ]	Vérifie si str1 n'est pas égale à str2
-[ -z $str ]	Vérifie si str est vide
-[ -n $str ]	Vérifie si str n'est pas vide
+Pris sur [openclassroom](https://openclassrooms.com/fr/courses/43538-reprenez-le-controle-a-laide-de-linux/43394-les-conditions)
+                
+[ $str1 == $str2 ] :arrow_right: Vérifie si str1 est identique à str2.
+
+[ $str1 != $str2 ] :arrow_right: Vérifie si str1 est différent de str2
+
+[ -z $str ] :arrow_right: Vérifie si str est vide
+
+[ -n $str ] :arrow_right: Vérifie si str est non vide
 
 
 ## Fichiers
 
-[ -a fichier ]	Vérifie si ce fichier existe
-[ -d dossier ]	Vérifie si ce dossier existe
-[ -L fichier ]	Vérifie si ce fichier est un lien symbolique
-[ -r fichier ]	Vérifie si ce fichier est lisible
-[ -w fichier ]	Vérifie si ce fichier est modifiable
-[ -x fichier ]	Vérifie si ce fichier est exécutable
-[ fichier1 -nt fichier2 ]	Vérifie si le fichier 1 est plus récent que le fichier 2 (netherthan)
-[ fichier1 -ot fichier2 ]	Vérifie si le fichier 1 est plus vieux que le fichier 2 (olderthan)
-[ -s fichier ]	Vérifie si la taille du fichier est supérieure à zéro
+Pris sur [openclassroom](https://openclassrooms.com/fr/courses/43538-reprenez-le-controle-a-laide-de-linux/43394-les-conditions)
+
+[ -e fichier ]  :arrow_right: Vérifie si ce fichier existe
+ 
+[ -d dossier ]	:arrow_right: Vérifie si le fichier est un répertoire
+
+[ -L fichier ]	:arrow_right::arrow_right: Vérifie si ce fichier est un lien symbolique
+
+[ -r fichier ]	:arrow_right: Vérifie si ce fichier est lisible
+
+[ -w fichier ]	:arrow_right: Vérifie si ce fichier est modifiable
+
+[ -x fichier ]	:arrow_right: Vérifie si ce fichier est exécutable
+
+[ fichier1 -nt fichier2 ] :arrow_right: Vérifie si le fichier 1 est plus récent que le fichier 2 (netherthan)
+
+[ fichier1 -ot fichier2 ] :arrow_right: Vérifie si le fichier 1 est plus vieux que le fichier 2 (olderthan)
+
+[ -s fichier ]	:arrow_right: Vérifie si la taille du fichier est supérieure à zéro
 
 ## Nombres
 
-Conditions	Significations
-[ $nb1 -eq $nb2 ]	Vérifie si les nombres son égaux
-[ $nb1 -ne $nb2 ]	Vérifie si les nombres ne sont pas égaux
-[ $nb1 -lt $nb2 ]	Vérifie si nb1 est inférieur à nb2
-[ $nb1 -le $nb2 ]	Vérifie si nb1 est inférieur ou égal à nb2
-[ $nb1 -gt $nb2 ]	Vérifie si nb1 est supérieur à nb2
-[ $nb1 -ge $nb2 ]	Vérifie si nb1 est supérieur ou égal à nb2
+Pris sur [openclassroom](https://openclassrooms.com/fr/courses/43538-reprenez-le-controle-a-laide-de-linux/43394-les-conditions)
+
+[ $nb1 -eq $nb2 ] :arrow_right:	Vérifie si les nombres son égaux
+
+[ $nb1 -ne $nb2 ] :arrow_right:	Vérifie si les nombres ne sont pas égaux
+
+[ $nb1 -lt $nb2 ] :arrow_right:	Vérifie si nb1 est inférieur à nb2
+
+[ $nb1 -le $nb2 ] :arrow_right:	Vérifie si nb1 est inférieur ou égal à nb2
+
+[ $nb1 -gt $nb2 ] :arrow_right:	Vérifie si nb1 est supérieur à nb2
+
+[ $nb1 -ge $nb2 ] :arrow_right:	Vérifie si nb1 est supérieur ou égal à nb2
 
 ## D'autres Options
 
@@ -75,9 +95,9 @@ Conditions	Significations
 
 On peut faire plusieurs ``if`` grâce aux symboles :
 
-- && : signifie "et"
+* && : signifie "et"
 
-- || : signifie "ou"
+* || : signifie "ou"
 
 Exemple :
 
