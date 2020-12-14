@@ -9,20 +9,20 @@ Premièrement, nous verront son Fonctionnement et quelques commandes de base. Pu
 ----------------------------
 ## Sommaire
 
-* [Introduction](https://github.com/nsegur66/Powershell/blob/main/Introduction%20au%20Shell.md)
+* [Introduction](https://github.com/nsegur66/Shell/blob/main/cours/Introduction%20au%20Shell.md)
     
-    * [Histoire du Shell](https://github.com/nsegur66/Powershell/blob/main/Introduction%20au%20Shell.md#histoire-du-shell)
+    * [Histoire du Shell](https://github.com/nsegur66/Shell/blob/main/cours/Introduction%20au%20Shell.md#histoire-du-shell)
     
-    * [Au final, qu'est ce que le Shell ?](https://github.com/nsegur66/Powershell/blob/main/Introduction%20au%20Shell.md#quest-ce-que-le-shell-)
+    * [Au final, qu'est ce que le Shell ?](https://github.com/nsegur66/Shell/blob/main/cours/Introduction%20au%20Shell.md#histoire-du-shell)
 
     
 * [Shell]()
 
-    * [installation du Shell](https://github.com/nsegur66/Powershell/blob/main/Installation%20du%20Shell.md)
+    * [installation du Shell](https://github.com/nsegur66/Shell/blob/main/cours/Installation%20du%20Shell.md)
 
-    * [commande](https://github.com/nsegur66/Powershell/blob/main/Commande.md)
+    * [commande](https://github.com/nsegur66/Shell/blob/main/cours/Commande.md)
 
-    * [variables](https://github.com/nsegur66/Shell/blob/main/variables.md)
+    * [variables](https://github.com/nsegur66/Shell/blob/main/cours/variables.md)
 
     * [boucles](https://github.com/nsegur66/Shell/blob/main/cours/boucles.md)
 
