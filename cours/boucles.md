@@ -68,4 +68,9 @@ Fichier trouvé : conditions.sh
 Fichier trouvé : variables.sh
 ```
 
+## Pour Résumé
+
+Le ``while`` permet de boucler tant qu'une condition n'est pas remplie.
+
+Le ``for`` permet de boucler sur une série de valeurs définies.
 
