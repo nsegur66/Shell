@@ -26,7 +26,7 @@ Premièrement, nous verront son Fonctionnement et quelques commandes de base. Pu
 
     * [boucles](https://github.com/nsegur66/Shell/blob/main/cours/boucles.md)
 
-    * [conditions](https://github.com/nsegur66/Shell/blob/main/conditions.md)
+    * [conditions](https://github.com/nsegur66/Shell/blob/main/cours/conditions.md)
 
 * [Script]()
   
