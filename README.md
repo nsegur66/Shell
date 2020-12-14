@@ -16,7 +16,7 @@ Premièrement, nous verront son Fonctionnement et quelques commandes de base. Pu
     * [Au final, qu'est ce que le Shell ?](https://github.com/nsegur66/Shell/blob/main/cours/Introduction%20au%20Shell.md#histoire-du-shell)
 
     
-* [Shell]()
+* [Shell](https://github.com/nsegur66/Shell/blob/main/cours/shell.md)
 
     * [installation du Shell](https://github.com/nsegur66/Shell/blob/main/cours/Installation%20du%20Shell.md)
 
