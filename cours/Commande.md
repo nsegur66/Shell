@@ -14,8 +14,7 @@ Permet de vous afficher la documentation de la commande renseignée
 ## ``mv``
 Permet de déplacer des éléments
 
-... renvoie cours niel
-
+Il existe beaucoup d'autres commandes génériques, vu dans le [cours](https://github.com/kevinniel/resources/blob/master/Cours/linux/commandes_generiques.md#ligne-de-commande-g%C3%A9n%C3%A9riques-cli)
 ## Autres commandes
 
 ## ``Echo``
