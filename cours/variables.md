@@ -122,7 +122,7 @@ Combiens d'élèves ont eu le BAC ?
 345 élèves ont eu le BAC
 ```
 ## Les opérations mathématiques
-En passantpar la commande **Let** nous pouvons effectuer des opérations mathémathiques tels que :
+En passant par la commande **Let** nous pouvons effectuer des opérations mathémathiques tels que :
 
 - les additions (+) , soustractions (-) , multiplications (*)
 - les divisions (/) , modulo (%) et les puissances (**)
