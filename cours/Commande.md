@@ -29,18 +29,66 @@ Cette commande permet de créer un dossier/répertoire
 
 
 ## ``Echo``
+La commande ``echo`` permet simplement d'afficher une ligne. 
 
+```bash
+$echo "quelle temps fait-il ?"
+quelle temps fait-il ?
+``` 
+Ils existent des paramètres :
 
+* -e : permet d'interpéter des séquences
+* -n : permet de retirer le saut de ligne insérer par défaut
+* -E : permet d'interpéter des séquences spéciales (\t, \b, \r ...)
 
 ## ``Read``
 
-## ``Su root``
-## ``Let``
+La commande ``read`` lit l'entrée standard et affecte les valeurs saisies
+
+```bash
+#!/bin/bash
+read nombres
+echo "Vous avez $nombres élèves dans cette classe"
+```
+Sortie 
+
+```bash
+$
+30
+Vous avez 30 élèves dans cette classe
+$
+
+Ils existent des paramètres :
+
+* read -p : Permet de mettre un message avant la saisie de l'utilisateur.
+* read -n : Permet de limiter le nombre de caractère que peut saisir l'utilisateur.
+* read -t : Permet de limiter le temps que peut mettre l'utilisateur à faire la saisie.
+* read -s : Permet de cacher la saisie de l'utilisateur.
+
+##  ``Let``
+
+La commmande ``let`` permet d'effectuer des calculs. Comme les additions (+) , soustractions (-) , multiplications (*)
+les divisions (/) , modulo (%) et les puissances (**)
+
+Exemples :
+```bash
+$ a=1
+$ let "a=$a + 1"
+$ echo $a
+2
+```
 ## ``Env``
+
+Cette commande fait partie des commandes d'environnements.
+
+Elle sert a affiché les variables d'environnements
+
 ## ``pwd``
+
+la commande ``pwd`` permet de savoir dans quel répertoire on se trouve.
+
 ## ``usermod``
-## ``cut``
-## ``getent``
+
 
 ## les Groupes
 ## Les Droits
