@@ -57,6 +57,7 @@ $
 30
 Vous avez 30 élèves dans cette classe
 $
+```
 
 Ils existent des paramètres :
 
@@ -71,12 +72,14 @@ La commmande ``let`` permet d'effectuer des calculs. Comme les additions (+) , s
 les divisions (/) , modulo (%) et les puissances (**)
 
 Exemples :
+
 ```bash
 $ a=1
 $ let "a=$a + 1"
 $ echo $a
 2
 ```
+
 ## ``Env``
 
 Cette commande fait partie des commandes d'environnements.
@@ -87,8 +90,28 @@ Elle sert a affiché les variables d'environnements
 
 la commande ``pwd`` permet de savoir dans quel répertoire on se trouve.
 
-## ``usermod``
-
-
 ## les Groupes
+
+## ``Usermod``
+
+Elle permet la gestion d'utlisateurs.
+
+useradd <username> : commande permettant d'ajouter un utilisateur.
+  
+useradd -G <groups> <username>: crée un utilisateur ``username`` en lui affectant automatiquement les groupes listés dans groups.
+  
+userdel <username> : permet de supprimer l'utilisateur ``usernmae``.
+
+## Autres Commandes
+
+passwd <username> : permet de définir le nouveau mot de passe à l'uilisateur ``usernmae``. 
+  
+groupadd <nom_du_groupe> : permet de créer un groupe nom_du_groupe.
+
+groupdel <nom_du_groupe> : permet de supprimer le groupe nom_du_groupe.
+
 ## Les Droits
+
+On peut aussi modifier les droits de nos fichiers/dossiers avec la commande ``chmod``
+(vu dans le [cours](https://github.com/kevinniel/resources/blob/master/Cours/linux/droits.md) récédemment)
+
