@@ -1,80 +1,117 @@
-## Fonctionnement du Shell
+## Commande de base du Shell
 
-PowerShell est un langage de script fondé sur la programmation orientée objet. Le logiciel PowerShell (fichier exécutable  powershell.exe  ) est l’interpréteur de l’interface en ligne de commande de l’environnement de développement Windows PowerShell. 
+## Commande génériques
 
-Les commandes PowerShell sont constituées d’un verbe ou préfixe et d’un nom, séparés par un tiret. Elles peuvent être suivies de paramètres, on les appelle des commandlets ou cmdlets (command applets en anglais ou phrases en français).
+## ``ls`` et ``ls -a``
 
-Le préfixe de cmdlet est appelé verbe car il détermine l’action à effectuer sur les entités désignées dans la phrase. Voyons-en quelques-uns des plus utiles :
+La commande ``ls`` sert a lister l'ensemble des fichiers & dossiers présents dans le répertoire courant (sans les dossiers et fichiers cachés)
 
-Add  permet d’ajouter des données ou informations sur le nom qui le suit ;
+Alors que la commande ``ls -al`` permet de lister l'ensemble des fichiers & dossiers présents dans le répertoire courant, y compris les dossiers et fichiers cachés
 
-Get  permet d’obtenir des données ou informations sur le nom qui le suit ;
+## ``man``
 
-Read  permet de lire des données ou informations sur le nom qui le suit ;
+Permet de vous afficher la documentation de la commande renseignée
 
-Clear  permet de réinitialiser l’affichage de l’interface ;
+## ``mv``
+Permet de déplacer des éléments.Par exemple déplacer un fichier vers dossier ou inversement.
 
-Importet  Export  permettent d’importer/exporter des fichiers de commande ou des Alias ;
+## ``Touch``
 
-New  permet de créer de nouveaux objets ou variables ;
+Cette commande permet de créer un fichier 
 
-Set  permet de définir des données ou informations sur le nom qui le suit ;
+## ``mkdir``
 
-Write  permet de d’écrire des données ou informations sur le nom qui le suit et peut agir comme le compte rendu d’une commande.
+Cette commande permet de créer un dossier/répertoire
 
-## Commande de base 
+> :bulb: > Il existe beaucoup d'autres commandes génériques, vu dans le [cours](https://github.com/kevinniel/resources/blob/master/Cours/linux/commandes_generiques.md#ligne-de-commande-g%C3%A9n%C3%A9riques-cli)
 
-Read-Host. C’est une fonction qui permet de saisir une chaîne de caractères et de l’enregistrer dans une variable ; on utilisera cette fonction souvent dans la suite du cours.
-
-la variable  $val  vous retourne votre chaîne de caractères
-
-[string]: chaîne de caractères, on l’a déjà vu précédemment ;
-
-[char]  : caractère Unicode sur 16 bits ;
-
-[byte]  : caractère sur 8 bits non signé ;
-
-[int]  : valeur entière sur 32 bits signée ;
-
-[long]  : valeur entière sur 64 bits signée ;
-
-[bool]  : valeur booléenne (True/False : vraie/fausse).
+## Autres commandes
 
 
-Par savoir où l’on se situe, on va utiliser la commande  Get-Location
+## ``Echo``
+La commande ``echo`` permet simplement d'afficher une ligne. 
 
-Pour afficher le contenu d’un dossier, utilisez la commande Get-ChildItem
+```bash
+$echo "quelle temps fait-il ?"
+quelle temps fait-il ?
+``` 
+Ils existent des paramètres :
 
-Allez, nous allons créer un répertoire de sauvegarde SAVE dans notre dossier utilisateur ; utilisons la commande  New-Item
+* -e : permet d'interpéter des séquences
+* -n : permet de retirer le saut de ligne insérer par défaut
+* -E : permet d'interpéter des séquences spéciales (\t, \b, \r ...)
 
+## ``Read``
 
+La commande ``read`` lit l'entrée standard et affecte les valeurs saisies
 
-gerer les droits 
+```bash
+#!/bin/bash
+read nombres
+echo "Vous avez $nombres élèves dans cette classe"
+```
+Sortie 
 
-Full : contrôle total ;
+```bash
+$
+30
+Vous avez 30 élèves dans cette classe
+$
+```
 
-Change : modifier ;
+Ils existent des paramètres :
 
-Read : lecture ;
+* read -p : Permet de mettre un message avant la saisie de l'utilisateur.
+* read -n : Permet de limiter le nombre de caractère que peut saisir l'utilisateur.
+* read -t : Permet de limiter le temps que peut mettre l'utilisateur à faire la saisie.
+* read -s : Permet de cacher la saisie de l'utilisateur.
 
-Custom : personnalisé.
+##  ``Let``
 
+La commmande ``let`` permet d'effectuer des calculs. Comme les additions (+) , soustractions (-) , multiplications (*)
+les divisions (/) , modulo (%) et les puissances (**)
 
+Exemples :
 
-la commande  Get-Location  qui permet de savoir dans quel dossier on se situe ;
+```bash
+$ a=1
+$ let "a=$a + 1"
+$ echo $a
+2
+```
 
-la commande  Get-ChildItem  qui permet de lister le contenu d’un répertoire ;
+## ``Env``
 
-la commande  New-Item  qui permet de créer des répertoires et des fichiers textes vides ou non vides ;
+Cette commande fait partie des commandes d'environnements.
 
-la commande de copie de fichiers ou de répertoires  :  Copy-Item  ;
+Elle sert a affiché les variables d'environnements
 
-la commande de déplacement de fichiers ou de répertoires  :  Move-Item  ;
+## ``pwd``
 
-la commande d’effacement de fichiers ou de répertoires  :  Remove-Item  ;
+la commande ``pwd`` permet de savoir dans quel répertoire on se trouve.
 
-la commande de renommage de fichiers ou de répertoires  :  Rename-Item  ;
+## les Groupes
 
-la commande  New-SmbShare  qui permet de créer un partage de dossier ;
+## ``Usermod``
 
-la commande  Grant-SmbShareAccess  qui permet de rajouter des autorisations d’accès à des utilisateurs ou à des groupes sur un répertoire partagé.
+Elle permet la gestion d'utlisateurs.
+
+useradd <username> : commande permettant d'ajouter un utilisateur.
+  
+useradd -G <groups> <username>: crée un utilisateur ``username`` en lui affectant automatiquement les groupes listés dans groups.
+  
+userdel <username> : permet de supprimer l'utilisateur ``usernmae``.
+
+## Autres Commandes
+
+passwd <username> : permet de définir le nouveau mot de passe à l'uilisateur ``usernmae``. 
+  
+groupadd <nom_du_groupe> : permet de créer un groupe nom_du_groupe.
+
+groupdel <nom_du_groupe> : permet de supprimer le groupe nom_du_groupe.
+
+## Les Droits
+
+On peut aussi modifier les droits de nos fichiers/dossiers avec la commande ``chmod``
+(vu dans le [cours](https://github.com/kevinniel/resources/blob/master/Cours/linux/droits.md) récédemment)
+
