@@ -1,4 +1,4 @@
-## Souces
+## Sources
 
 https://www.infoslinux.fr/infoslinux/article-1.html
 
