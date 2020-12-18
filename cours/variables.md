@@ -103,7 +103,7 @@ Les back quotes permettent de mettre une commande a l'intérieur (ici pwd)  et d
 ## La commande **Read**
 
 On peut faire une demande de saisie grâce à la commande **read**
-Read permet de stocké le nom de la variable dans le message saisi
+Read permet de stocker le nom de la variable dans le message saisi
 ```bash
 #!/bin/bash
 
@@ -142,7 +142,7 @@ Les commandes principales sont :
 
 ``shell`` indique le shell en cours d'utilisation
 
-``path`` des répertoires contenant des exécutables.Qu'on souhaite lancé sans indiquer le répertoire
+``path`` des répertoires contenant des exécutables.Qu'on souhaite lancer sans indiquer le répertoire
 
 ``editor`` c'est l'éditeur de texte par défaut
 
@@ -150,7 +150,7 @@ Les commandes principales sont :
 
 ``pwd`` le dossier dans lequel on se trouve 
 
-``olpwd`` le dossier dans lequel on setrouvait avant
+``olpwd`` le dossier dans lequel on se trouvait avant
 
 On peut définir notre propre variable d'environnement avec la commande ``export``
 
