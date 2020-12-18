@@ -1,4 +1,4 @@
-## Tp4 :  4 - Créer un annuaire téléphonique
+## Tp4 : Créer un annuaire téléphonique
 
 Dans ce TP, on nous demandait de faire :
 
@@ -133,5 +133,5 @@ fi
 ```
 
 <p align="center">
- <a href="https://github.com/nsegur66/Shell#sommaire">HOME</a>
+ <a href="https://github.com/nsegur66/Shell/blob/main/Tp/Tp3.md">Tp 3</a> <a href="https://github.com/nsegur66/Shell#sommaire">HOME</a> <a href="https://github.com/nsegur66/Shell/blob/main/Tp/Tp5.md">Tp 5</a>
 </p>
