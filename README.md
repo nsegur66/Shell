@@ -28,7 +28,7 @@ Premièrement, nous verront son Fonctionnement et quelques commandes de base. Pu
 
     * [conditions](https://github.com/nsegur66/Shell/blob/main/cours/conditions.md)
 
-* [Script]()
+* [Script](https://github.com/nsegur66/Shell/blob/main/cours/Script.md)
   
     * [Tp 1](https://github.com/nsegur66/Shell/blob/main/Tp/Tp1.mdk) : Gestion ultilisateur 
   
