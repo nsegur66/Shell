@@ -115,3 +115,7 @@ groupdel <nom_du_groupe> : permet de supprimer le groupe nom_du_groupe.
 On peut aussi modifier les droits de nos fichiers/dossiers avec la commande ``chmod``
 (vu dans le [cours](https://github.com/kevinniel/resources/blob/master/Cours/linux/droits.md) récédemment)
 
+
+<p align="center">
+<a href="https://github.com/nsegur66/Shell/blob/main/cours/Commande.md">commande</a> <a href="https://github.com/nsegur66/Shell#sommaire">HOME</a> <a href="https://github.com/nsegur66/Shell/blob/main/cours/variables.md">variables</a>
+</p>
