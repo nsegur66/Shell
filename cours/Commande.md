@@ -117,5 +117,5 @@ On peut aussi modifier les droits de nos fichiers/dossiers avec la commande ``ch
 
 
 <p align="center">
-<a href="https://github.com/nsegur66/Shell/blob/main/cours/Commande.md">commande</a> <a href="https://github.com/nsegur66/Shell#sommaire">HOME</a> <a href="https://github.com/nsegur66/Shell/blob/main/cours/variables.md">variables</a>
+<a href="https://github.com/nsegur66/Shell/blob/main/cours/Installation%20du%20Shell.md">Installation shell</a> <a href="https://github.com/nsegur66/Shell#sommaire">HOME</a> <a href="https://github.com/nsegur66/Shell/blob/main/cours/variables.md">variables</a>
 </p>
