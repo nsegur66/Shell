@@ -2,7 +2,7 @@
 
 Dans ce TP, on nous demandait de faire :
 
-````bash
+```bash
 1 - Scripts de gestion des comptes utilisateurs
 Faire un script de gestion des utilisateurs, qui doit permettre :
 
