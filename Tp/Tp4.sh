@@ -13,7 +13,7 @@ then
 	echo " 2- Modifier un contact" 
 	echo " 3- Rechercher un contact (téléphone)"
 	echo " 4- Rechercher un contact (email)"
-	echo " 5- Lister un contact"
+	echo " 5- Lister les contacts"
 	echo " 6- Supprimer un contact"
 	echo "----------"
 	read -p "Saisissez un chiffre : " contactmodify
