@@ -30,9 +30,15 @@ Premièrement, nous verront son Fonctionnement et quelques commandes de base. Pu
 
 * [Script]()
   
-    * [Essaie]()
+    * [Tp 1]()
   
-    * [TP]() 
+    * [TP 2]() 
+    
+    * [TP 3]()
+    
+    * [TP 4](https://github.com/nsegur66/Shell/blob/main/Tp/Tp4.sh)
+    
+    * [TP 5](https://github.com/nsegur66/Shell/blob/main/Tp/Tp5.sh)
 
 ----------------------------
 
