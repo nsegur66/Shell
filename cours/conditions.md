@@ -120,7 +120,7 @@ Ici il faut utilisé le point d'exclamation « ! ».
 
  
 <p align="center">
- <a href="https://github.com/nsegur66/Shell#sommaire">HOME</a>
+ <a href="https://github.com/nsegur66/Shell/blob/main/cours/boucles.md">boucles</a> <a href="https://github.com/nsegur66/Shell#sommaire">HOME</a>
 </p>
 
 
