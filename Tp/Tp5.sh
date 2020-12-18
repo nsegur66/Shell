@@ -1,3 +1,7 @@
+## Tp5 : Création d'un agenda
+
+
+```bash
 #!/bin/bash
 
 refus()
@@ -99,3 +103,4 @@ then
 	;;
 	esac
 fi
+```
