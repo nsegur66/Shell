@@ -30,7 +30,7 @@ Premièrement, nous verront son Fonctionnement et quelques commandes de base. Pu
 
 * [Script](https://github.com/nsegur66/Shell/blob/main/cours/Script.md)
   
-    * [Tp 1](https://github.com/nsegur66/Shell/blob/main/Tp/Tp1.mdk) : Gestion ultilisateur 
+    * [Tp 1](https://github.com/nsegur66/Shell/blob/main/Tp/Tp1.mdk) : Gestion utilisateur 
   
     * [TP 2]() : Exercice d'installation automatique d'un serveur web Apache
     
