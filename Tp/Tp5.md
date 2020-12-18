@@ -12,6 +12,9 @@ Le script devra permettre de gérer un agenda. Il devra inclure les fonctionnali
 
 L'ensemble des informations devront être enregistrées dans un fichier texte
 ```
+## Fichier associé
+
+[événement](https://github.com/nsegur66/Shell/blob/main/Tp/evenement.txt)
 
 ## Voici mon code : 
 
@@ -231,22 +234,6 @@ then
 	esac
 fi
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <p align="center">
  <a href="https://github.com/nsegur66/Shell/blob/main/Tp/Tp4.md">Tp 4</a>
