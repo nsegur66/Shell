@@ -198,5 +198,5 @@ Le paramètre 1 est maintenant param3
 ``shift`` est notamment utilisé dans les boucles.
 
 <p align="center">
- <a href="https://github.com/nsegur66/Shell#sommaire">HOME</a>
+  <a href="https://github.com/nsegur66/Shell/blob/main/cours/Commande.md">commande</a> <a href="https://github.com/nsegur66/Shell#sommaire">HOME</a>  <a href="https://github.com/nsegur66/Shell/blob/main/cours/boucles.md">boucles</a>
 </p>
