@@ -76,5 +76,5 @@ Le ``for`` permet de boucler sur une série de valeurs définies.
 
 
 <p align="center">
- <a href="https://github.com/nsegur66/Shell#sommaire">HOME</a>
+ <a href="https://github.com/nsegur66/Shell/blob/main/cours/variables.md">variables</a> <a href="https://github.com/nsegur66/Shell#sommaire">HOME</a> <a href="https://github.com/nsegur66/Shell/blob/main/cours/conditions.md">conditions</a>
 </p>
