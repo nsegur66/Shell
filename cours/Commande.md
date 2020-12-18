@@ -4,7 +4,7 @@
 
 ## ``ls`` et ``ls -a``
 
-La commande ``ls`` sert a lister l'ensemble des fichiers & dossiers présents dans le répertoire courant (sans les dossiers et fichiers cachés)
+La commande ``ls`` sert a listé l'ensemble des fichiers & dossiers présents dans le répertoire courant (sans les dossiers et fichiers cachés)
 
 Alors que la commande ``ls -al`` permet de lister l'ensemble des fichiers & dossiers présents dans le répertoire courant, y compris les dossiers et fichiers cachés
 
@@ -37,9 +37,9 @@ quelle temps fait-il ?
 ``` 
 Ils existent des paramètres :
 
-* -e : permet d'interpéter des séquences
+* -e : permet d'interpréter des séquences
 * -n : permet de retirer le saut de ligne insérer par défaut
-* -E : permet d'interpéter des séquences spéciales (\t, \b, \r ...)
+* -E : permet d'interpréter des séquences spéciales (\t, \b, \r ...)
 
 ## ``Read``
 
