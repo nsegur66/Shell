@@ -16,11 +16,11 @@ Le script devra permettre la gestion d'un annuaire téléphonique. Il devra incl
 
 L'ensemble des informations devront être enregistrées dans un fichier texte
 ```
-
-voici l'annuaire associé a cette annuaire téléphonique
+## fichier associé
 
 [annuaire](https://github.com/nsegur66/Shell/blob/main/Tp/annuaire.txt)
 
+## Mon Code
 
 ```
 #!/bin/bash
