@@ -106,9 +106,9 @@ Exemple :
 if [ $# -ge 1 ] && [ $1 = 'adresse' ]
 then
         echo "Bravo !"
-        echo "Vous connaissez vôtre adresse"
+        echo "Vous connaissez votre adresse"
 else
-        echo "Vous ne connaissez pas vôtre adresse "
+        echo "Vous ne connaissez pas votre adresse "
 fi
 ```
 
@@ -116,7 +116,7 @@ fi
 
 Il est possible d'inverser un test en utilisant la négation. 
 
-Ici il faut utilisé le point d'exclamation « ! ».
+Ici il faut utiliser le point d'exclamation « ! ».
 
  
 <p align="center">
