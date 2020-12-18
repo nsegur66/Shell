@@ -30,15 +30,15 @@ Premièrement, nous verront son Fonctionnement et quelques commandes de base. Pu
 
 * [Script]()
   
-    * [Tp 1]()
+    * [Tp 1]() Gestion ultilisateur 
   
-    * [TP 2]() 
+    * [TP 2]() Exercice d'installation automatique d'un serveur web Apache
     
-    * [TP 3]()
+    * [TP 3]() Créer un script permettant de réaliser des sauvegardes automatique de votre serveur web Apache
     
-    * [TP 4](https://github.com/nsegur66/Shell/blob/main/Tp/Tp4.sh)
+    * [TP 4](https://github.com/nsegur66/Shell/blob/main/Tp/Tp4.sh) Créer un annuaire téléphonique
     
-    * [TP 5](https://github.com/nsegur66/Shell/blob/main/Tp/Tp5.sh)
+    * [TP 5](https://github.com/nsegur66/Shell/blob/main/Tp/Tp5.sh) Créer un agenda 
 
 ----------------------------
 
