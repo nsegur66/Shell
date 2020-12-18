@@ -9,3 +9,7 @@
 * [boucles](https://github.com/nsegur66/Shell/blob/main/cours/boucles.md)
 
 * [conditions](https://github.com/nsegur66/Shell/blob/main/cours/conditions.md)
+
+<p align="center">
+ <a href="https://github.com/nsegur66/Shell#sommaire">HOME</a>
+</p>
