@@ -26,10 +26,10 @@ Le Shell de l'OS possède deux environnements :
 
 • l'environnement console (GLI), l'interface en ligne de commande.
 
-• l'environnement graphique (GUI).L'interface graphiques est plus simple et plus intuitif d'utilisation.
+• l'environnement graphique (GUI).L'interface graphique est plus simple et plus intuitif d'utilisation.
 
 L'interfaces en ligne de commande permet de communiquer avec la machine via du texte. Mais pour que les commandes soient reconnues, on a besoin d'un interpréteur de commande. 
-Ils existent plusieurs interpréteur de commande selon l'OS qu'ont utilisent.
+Ils existent plusieurs interpréteurs de commande selon l'OS qu'on utilise.
 
 ------------------------
 ## Windows 
@@ -42,13 +42,13 @@ Linux, se sert de plusieurs types de shells Unix comme le sh / le bash / etc...
 
 ## Mac
 
-Sous Mac, on se sert directement du terminale
+Sous Mac, on se sert directement du terminal
 
 ------------------------
 
 Maintenant, nous allons aborder les Shell Unix.  Il va permettre d'interpréter les commandes données sous forme de texte dans un terminal Unix. 
 
-ils existent plusieurs environnements console, plusieurs types de Shell Unix.
+il existe plusieurs environnements console, plusieurs types de Shell Unix.
 
 Voici les principaux shells Unix utilisé :
 
